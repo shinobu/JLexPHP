@@ -1,3 +1,8 @@
+--
+This Fork is made for use on https://github.com/shinobu/PHP-SparqlParser
+It is based on https://github.com/kuma-giyomu/JLexPHP Fork from https://github.com/wez/JLexPHP/
+merged with the actual Version from wez.
+--
 JLexPHP: a Lexical Analyzer Generator for PHP, based on JLex.
 For copyright and licensing information, see the COPYING file.
 
