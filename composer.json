@@ -1,0 +1,25 @@
+{
+    "name": "shinobu/JLexPHP",
+    "type": "library",
+    "description": "Lexer Generator for PHP",
+    "keywords": ["lexer-generator"],
+    "homepage": "https://github.com/shinobu/JLexPHP",
+    "license": "public domain",
+    "authors": [
+        {
+            "name": "wez",
+            "homepage": "https://github.com/wez"
+        },
+        {
+            "name": "kuma-giyomu",
+            "homepage": "https://github.com/kuma-giyomu"
+        }
+    ],
+    "scripts": {
+        "pre-autoload-dump": [
+            "javac JLexPHP/Main.java",
+            "jar cvf JLexPHP.jar JLexPHP/*.class"
+        ]
+    },
+    "bin": ["JLexPHP.jar", "JLexPHP.Main"]
+}
