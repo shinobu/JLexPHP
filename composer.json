@@ -1,5 +1,5 @@
 {
-    "name": "shinobu/JLexPHP",
+    "name": "shinobu/jlex-php",
     "type": "library",
     "description": "Lexer Generator for PHP",
     "keywords": ["lexer-generator"],
