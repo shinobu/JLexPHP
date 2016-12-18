@@ -20,6 +20,5 @@
             "javac JLexPHP/Main.java",
             "jar cvf JLexPHP.jar JLexPHP/*.class"
         ]
-    },
-    "bin": ["JLexPHP.jar", "JLexPHP/Main.class"]
+    }
 }
